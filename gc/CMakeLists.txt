@@ -55,7 +55,7 @@ TARGET_INCLUDE_DIRECTORIES(
 
 TARGET_LINK_LIBRARIES(
   ${_target}
-  PRIVATE atomic_ops::atomic_ops
+  PRIVATE Atomic_ops::atomic_ops Atomic_ops::atomic_ops_gpl
 )
 
 ADD_COMPILE_DEFINITIONS(
