@@ -10,6 +10,8 @@ SET(_target
     "gtoModule"
 )
 
+set(CMAKE_BUILD_TYPE "Release" CACHE STRING "Build type" FORCE)
+
 LIST(APPEND _sources gtoHeader.cpp gtoReader.cpp gtoWriter.cpp gtomodule.cpp)
 
 ADD_LIBRARY(
