@@ -43,7 +43,7 @@ ENDIF()
 
 TARGET_LINK_LIBRARIES(
   ${_target}
-  Python::Python
+  Python::PythonWrapper
   Gto
   TwkUtil
   Imath::Imath
